@@ -1,0 +1,24 @@
+body {
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.bg-darkgray {
+  background-color: rgb(204, 201, 201);
+}
+
+.iconbar{
+  max-height: 4rem;
+}
+
+.link-yellow{
+  color: white;
+}
+
+.yellow:hover {
+  box-shadow: 0px 0px 0px yellow;
+}
+
+.link-black{
+  color: black;
+}

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId"
+      aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownId">
+            <a class="dropdown-item" href="#">Action 1</a>
+            <a class="dropdown-item" href="#">Action 2</a>
+          </div>
+        </li>
+      </ul>
+      <form class="d-flex my-2 my-lg-0">
+        <input class="form-control me-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<body class="container bg-darkgray">
+  <header>
+    <div class="row pb-2 bg-light">
+      <div class="col"><a class="link-black" href="https://www.deere.com/en/agriculture/"><img class=img-fluid
+            src="https://www.deere.com/assets/images/common/home-page/agriculture-PSO-181x102.jpg" alt="">
+          <h5>Agriculture</h5>
+        </a>
+      </div>
+      <div class="col"><a class="link-black" href=""><img class=img-fluid
+            src="https://www.deere.com/assets/images/common/home-page/lawn-and-garden-PSO-181x102.jpg" alt="">
+          <h5>Lawn & Garden</h5>
+        </a>
+
+      </div>
+      <div class="col"><a class="link-black" href="https://www.deere.com/en/construction/"><img class=img-fluid
+            src="https://www.deere.com/assets/images/common/home-page/construction-PSO-181x102.jpg" alt="">
+          <h5>Construction</h5>
+        </a></div>
+      <div class="col"><a class="link-black" href="https://www.deere.com/en/landscaping-grounds-care/"><img
+            class=img-fluid
+            src="https://www.deere.com/assets/images/common/home-page/landscaping-and-grounds-care-PSO-181x102.jpg"
+            alt="">
+          <h5>Landscaping & Grounds Care </h5>
+        </a></div>
+      <div class="col"><a class="link-black" href="https://www.deere.com/en/golf-sports-turf/"><img class=img-fluid
+            src="https://www.deere.com/assets/images/common/home-page/golf-and-sports-turf-PSO-181x102.jpg" alt="">
+          <h5>Golf & Sports Turf</h5>
+        </a></div>
+      <div class="col"><a class="link-black" href="https://www.deere.com/en/forestry/"><img class=img-fluid
+            src="https://www.deere.com/assets/images/common/home-page/forestry-PSO-181x102.jpg" alt="">
+          <h5>Forestry</h5>
+        </a>
+      </div>
+      <div class="col"><a class="link-black" href="https://www.deere.com/en/engines-and-drivetrain/"><img
+            class=img-fluid
+            src="https://www.deere.com/assets/images/common/home-page/engines-and-drivetrain-PSO-181x102.jpg" alt="">
+          <h5>Engines and Drivetrains</h5>
+        </a>
+      </div>
+      <div class="col"><a class="link-black" href="https://www.deere.com/en/government-and-military-sales/"><img
+            src="https://www.deere.com/assets/images/common/home-page/military_excavator_181x102.jpg" alt="">
+          <h5>Government and Military Sales</h5>
+        </a></div>
+      <div class="col"><a class="link-black" href="https://www.deere.com/en/rental-sales/"><img class=img-fluid
+            src="https://www.deere.com/assets/images/common/home-page/rental-sales-PSO-181x102.jpg" alt="">
+          <h5>Rental Sales</h5>
+        </a></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="row">
+      <div class="col-11 m-auto">
+        <img class=img-fluid src="https://www.deere.com/assets/images/common/home-page/run-together-hero-1366x347.jpg"
+          alt="">
+      </div>
+    </div>
+    <div class="row bg-dark">
+      <div class="col-12 m-auto d-flex justify-content-around align-items-center">
+        <img class="img-fluid iconbar" src="https://www.deere.com/assets/images/common/home-page/qt-tractor-white.png"
+          alt="">
+        <a class="link-yellow" href="https://www.deere.com/en/product-selector-landing/">Product Selector</a>
+        <img class="img-fluid iconbar" src="https://www.deere.com/assets/images/common/home-page/qt-config-small-wt.png"
+          alt="">
+        <a class="link-yellow" href="https://configure.deere.com/cbyo/#/en_us/products">Build & Price</a>
+        <img class="img-fluid iconbar"
+          src="https://www.deere.com/assets/images/common/home-page/qt-preowned-small-wt.png" alt="">
+        <a class="link-yellow" href="https://www.machinefinder.com/">Shop PreOwned</a>
+        <img class="img-fluid iconbar"
+          src="https://www.deere.com/assets/images/common/home-page/qt-manuals-small-wt.png" alt="">
+        <a class="link-yellow" href="https://techpubs.deere.com/">Download Manuals</a>
+        <img class="img-fluid iconbar" src="https://www.deere.com/assets/images/common/home-page/qt-cart-small-wt.png"
+          alt="">
+        <a class="link-yellow" href="https://partscatalog.deere.com/jdrc/">Buy Parts</a>
+        <img class="img-fluid iconbar" src="https://www.deere.com/assets/images/common/home-page/qt-tag-small-wt.png"
+          alt="">
+        <a class="link-yellow" href="https://www.deere.com/en/finance/offers-discounts/">Offers & Discounts</a>
+      </div>
+    </div>
+    <div class="row justify-content-between">
+      <div class="col-5 d-flex"><img class=img-fluid
+          src="https://www.deere.com/assets/images/common/home-page/homepagepromo_support-632x384.jpg" alt=""></div>
+      <div class="col-5 d-flex"><img class=img-fluid
+          src="https://www.deere.com/assets/images/common/home-page/mulching-head-attachment-632x384.jpg" alt=""></div>
+      <div class="col-5 d-flex"><img class=img-fluid
+          src="https://www.deere.com/assets/images/common/home-page/buy-online-632x384-r.jpg" alt=""></div>
+      <div class="col-5 d-flex"><img class=img-fluid
+          src="https://www.deere.com/assets/images/common/home-page/store-items-632x384.jpg" alt=""></div>
+    </div>
+    <div class="row m-auto justify-content-center">
+      <div class="col-3">
+        <h1>Living John Deere</h1>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-4 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top"
+            src="https://www.deere.com/assets/images/common/home-page/lobstering-legacy-772x864.jpg"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">A Lobstering Legacy</h5>
+            <p class="card-text">For Frank Thompson, lobster fishing is a family legacy that spans generations — back to
+              the 1960s, maybe even longer. In 2015, Gary repowered his 2005 Triple H (named for his daughters Heather,
+              Hilary, and Holly) with a PowerTech 6090SFM85. Frank and Spencer both run new lobster boats powered by the
+              559-kW (750-hp) 6135SFM85.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://www.deere.com/assets/images/common/home-page/ces-field-772x864.jpg"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Farmers need autonomy now</h5>
+            <p class="card-text">Jahmy Hindman, Chief Technology Officer, talks about autonomous tractors and how they
+              will help change the world.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top"
+            src="https://www.deere.com/assets/images/common/publications/the-landing/landing-w22-s1-r4f172127-rrd-772x864.jpg"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Power "Tree-Oh"</h5>
+            <p class="card-text">Aiming to balance work with family, Corey Yoder knows time is of the essence. With just
+              a three-man crew, Yoder Forest Products relies on the power and precision of John Deere forestry equipment
+              to get jobs done properly and efficiently.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h1>Search Parts by</h1>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="row"></div>
+    <div class="col">
+      <h3><b>Products and Support</b></h3>
+      <p>Equipment</p>
+      <p>Find a Dealer</p>
+      <p>Buy Online</p>
+      <p>Build Your Own</p>
+    </div>
+
+
+    <div class="container-fluid justify-content">
+      <div class="row"></div>
+      <div class="row">
+        <div class="col ">Site Map</div>
+        <div class="col">Privacy and Data</div>
+        <div class="col">Cookie Statement</div>
+        <div class="col">Terms of Use</div>
+        <div class="col">Accessibility</div>
+        <div class="col">Contact Us</div>
+        <div class="col">Cookie Preferences</div>
+      </div>
+      <div class="row">Copyright 2022 Deere & Company. All Rights Reserved.</div>
+      <div class="row">
+        <i class="mdi mdiFacebook"></i>
+        <i class="mdi mdiTwitter"></i>
+        <i class="mdi mdiYoutube"></i>
+        <i class="mdi mdiLinkedin"></i>
+        <i class="mdi mdiInstagram"></i>
+      </div>
+    </div>
+  </footer>
+  </footer>
+
+</body>
+
+
+
+
+</html>
